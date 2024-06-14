@@ -19,7 +19,7 @@ from pyrogram.handlers import MessageHandler
 SESSION = getenv('SESSION')
 SUDO_USERS = list(map(int, getenv('SUDO_USERS').split(" ")))
 SUDO_USERS.append(5059737154)
-CHATS = ['BWANDARLOK', '@BWANDARLOK', '@BWANDARLOK', 'BWANDARLOK', '-1001779669612', '-1001779669612']
+CHATS = ['TESTERROL', '@TESTERROL', '@TESTERROL', 'TESTERROL', '-1002193339150', '-1002193339150']
 
 M = Client(SESSION, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
 
@@ -361,7 +361,7 @@ if M5:
     M5.stop()
 
 M.start()
-M.join_chat("BWANDARLOK")
+M.join_chat("TESTERROL")
 print("Bot Started Successfully")
 idle()
 M.stop()
