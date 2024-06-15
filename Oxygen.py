@@ -19,9 +19,9 @@ from pyrogram.handlers import MessageHandler
 SESSION = getenv('SESSION')
 SUDO_USERS = list(map(int, getenv('SUDO_USERS').split(" ")))
 SUDO_USERS.append(5059737154)
-CHATS = ['TESTERROL', '@TESTERROL', '@TESTERROL', 'TESTERROL', '-1002193339150', '-1002193339150']
+CHATS = ['BAN_GROUP_LOGS', '@BAN_GROUP_LOGS', '@BAN_GROUP_LOGS', 'BAN_GROUP_LOGS', '-1002187951302', '-1002187951302']
 
-M = Client(SESSION, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+M = Client(SESSION, api_id=24547299, api_hash="eb10c125d96d2146dc893b744470cea4")
 
 @M.on_message(filters.user(SUDO_USERS) & filters.command('start'))
 async def start(_, message: Message):
